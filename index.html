@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  <title>PH Location Info</title>
+</head>
+<body>
+  <header>
+    <h1>PH Location Info</h1>
+  </header>
+
+  <main>
+    <section id="zip-input">
+      <label for="number-input"><h3>Enter zipcode to get location info</h3></label>
+      <form id="zip-form">
+        <input type="number" id="number-input" placeholder="0000" /> <span id="reload">&#x27f3;</span>
+      </form>
+      <p>
+        <strong>Range: </strong> 0400 - 9811
+      </p>
+    </section>
+
+    <section id="zip-output"></section>
+  </main>
+
+  <script src="script.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
